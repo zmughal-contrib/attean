@@ -44,6 +44,7 @@ jobs:
         os: [macos-latest, windows-latest, ubuntu-latest]
         perl: ['5']
         include:
+          - { os: 'ubuntu-latest', perl: "blead" }
           - { os: 'ubuntu-latest', perl: "5.32" }
           - { os: 'ubuntu-latest', perl: "5.30" }
           - { os: 'ubuntu-latest', perl: "5.20" }
